@@ -1,7 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 // eslint-disable-next-line no-undef
 module.exports = {
-  content: ["./latihan1.html", "./script.js"],
+  content: ["./index.html", "./script.js"],
   theme: {
     extend: {
       fontFamily: {
