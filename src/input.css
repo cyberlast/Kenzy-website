@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: "Circular STD";
+    src: url("../public/font/font-circular/CircularStd-Bold.woff2")
+      format("woff2");
+  }
+
+  html {
+    font-family: Inter;
+  }
+
+  h1 {
+    font-family: "Circular STD";
+  }
+
+  .button {
+    font-family: "Circular STD";
+  }
+}
+
+@layer components {
+  .cta {
+    @apply button p-3 rounded-xl ml-3 font-bold shadow-md bg-gradient-to-r from-baseY-0 via-white to-baseY-0 text-grey-0;
+  }
+
+  .rating {
+    @apply absolute bg-chocolate-0 w-10 h-10 font-Circular font-bold flex justify-center items-center text-baseY-0 text-xl right-2 rounded-lg border-4 border-red-0;
+  }
+}
+
+@layer utilities {
+  .element {
+    transition: 700ms;
+    bottom: -100px;
+  }
+}

@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Millo Cheese Roll</title>
+    <!-- font inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- poppins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,700;1,300;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- font borsok -->
+    <link href="https://fonts.cdnfonts.com/css/borsok" rel="stylesheet" />
+
+    <!-- style tailwind -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body
+    class="bg-[url('../public/img/background.jpg')] bg-cover w-full bg-no-repeat scroll-smooth"
+  >
+    <nav class="py-5 px-8 lg:py-2 2xl:px-36">
+      <div class="container mx-auto flex justify-between">
+        <div class="flex items-center">
+          <img
+            src="public/img/Logo_Kenzy-removebg-preview.png"
+            alt=""
+            class="w-24"
+          />
+          <a href="#cta" class="cta lg:hidden font-Circular">Mau Pesan?</a>
+        </div>
+
+        <div class="items-center justify-center mx-auto hidden lg:flex">
+          <a
+            href="#"
+            class="mx-12 text-gray opacity-50 hover:opacity-100 hover:cta p-3 ml-3 font-Circular"
+            >Home</a
+          >
+          <a
+            href="#concept"
+            class="mx-12 text-gray opacity-50 hover:opacity-100 hover:cta p-3 ml-3 font-Circular"
+            >Tentang</a
+          >
+          <!-- <a
+            href="#"
+            class="mx-12 text-gray opacity-50 hover:opacity-100 hover:cta p-3 ml-3 font-Circular"
+            >Komentar</a
+          > -->
+          <a
+            href="#produk"
+            class="mx-12 text-gray opacity-50 hover:opacity-100 hover:cta p-3 ml-3 font-Circular"
+            >Produk</a
+          >
+          <a
+            href="#kontak"
+            class="mx-12 text-gray opacity-50 hover:opacity-100 hover:cta p-3 ml-3 font-Circular"
+            >Kontak</a
+          >
+        </div>
+
+        <div class="hidden lg:flex"></div>
+        <div>
+          <img
+            src="public/svg/menu.11 1.svg"
+            alt="toggle"
+            class="lg:hidden toggle"
+          />
+          <a href="#cta" class="cta hidden lg:block">Mau Pesan?</a>
+        </div>
+
+        <div
+          class="element-toggle fixed bottom-0 right-0 left-0 p-4 border lg:hidden bg-baseY-0 rounded-t-3xl z-50"
+        >
+          <ul class="flex justify-between">
+            <li class="w-full">
+              <a
+                href="#"
+                class="flex justify-center flex-col items-center gap-1 text-grey-0 opacity-50"
+                ><ion-icon
+                  name="home-outline"
+                  class="text-2xl font-Circular"
+                ></ion-icon>
+                <span class="font-Circular text-gray text-sm">Home</span>
+              </a>
+            </li>
+            <li class="w-full">
+              <a
+                href="#concept"
+                class="flex justify-center flex-col items-center gap-1"
+                ><ion-icon
+                  name="planet-outline"
+                  class="text-2xl font-Circular opacity-60 text-grey-0"
+                ></ion-icon>
+                <span class="font-Circular text-gray text-sm opacity-50"
+                  >Tentang</span
+                >
+              </a>
+            </li>
+            <li class="w-full">
+              <a
+                href="https://api.whatsapp.com/send?phone=6281287373318&text=Hai%20kak,%20saya%20mau%20order%20Milo%20Cheese%20Roll%20dong"
+                class="flex justify-center flex-col items-center gap-1"
+                target="_blank"
+                ><ion-icon
+                  name="chatbubbles-outline"
+                  class="text-2xl font-Circular opacity-60 text-grey-0"
+                ></ion-icon>
+              </a>
+            </li>
+            <li class="w-full">
+              <a
+                href="#produk"
+                class="flex justify-center flex-col items-center gap-1"
+                ><ion-icon
+                  name="heart-circle-outline"
+                  class="text-2xl font-Circular opacity-60 text-grey-0"
+                ></ion-icon>
+                <span class="font-Circular text-gray text-sm opacity-50"
+                  >Produk</span
+                >
+              </a>
+            </li>
+            <li class="w-full">
+              <a
+                href="#kontak"
+                class="flex justify-center flex-col items-center gap-1"
+                ><ion-icon
+                  name="people-outline"
+                  class="text-2xl font-Circular opacity-60 text-grey-0"
+                ></ion-icon>
+                <span class="font-Circular text-gray text-sm opacity-50"
+                  >Kontak</span
+                >
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <section>
+      <div class="container mx-auto mt-10 px-8 2xl:px-36">
+        <div class="grid grid-cols-12">
+          <div class="col-span-12 md:col-span-7 lg:col-span-6">
+            <h1
+              class="sm:text-5xl text-center font-Poppins font-bold text-grey-0 text-4xl md:text-[2.5rem] md:mt-0 md:text-left lg:text-7xl lg:mt-24 md:text-5xl"
+            >
+              Selamat Datang
+              <div class="text-grey-0">
+                Di Kenzy <span class="italic text-chocolate-0">Coklat</span>
+              </div>
+            </h1>
+            <p
+              class="font-bold text-center font-Poppins w-80 p-1 mx-auto my-3 bg-yellow-0 rounded-xl text-xl md:mx-0 lg:text-4xl lg:w-[600px]"
+            >
+              Tuntaskan Hasrat <span class="text-red-0">Manismu!</span>
+            </p>
+            <div class="hidden md:block">
+              <a
+                href="#cta"
+                class="cta font-Circular md:p-5 p-7 inline-block mx-0 my-4 text-xl font-bold text-grey-0"
+                >MAU PESAN?</a
+              >
+            </div>
+          </div>
+          <div class="col-span-12 -mt-2 md:col-span-5 md:w-full lg:col-span-6">
+            <img
+              src="./public/img/Foto Choco Crunchy.png"
+              alt=""
+              class="mx-auto w-full lg:ml-20"
+            />
+          </div>
+        </div>
+        <div class="text-center md:hidden">
+          <a
+            href="#cta"
+            class="cta font-Circular px-10 py-4 text-xl font-bold text-grey-0"
+            >MAU PESAN?</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <section class="relative">
+      <div>
+        <h1
+          class="text-3xl font-bold font-Poppins text-red-0 mt-20 border-y-2 border-chocolate-0 py-4 bg-chocolate-0 rounded-r-full pl-5 w-80 md:mx-auto md:rounded-none md:w-full md:text-center lg:text-4xl"
+          id="concept"
+        >
+          <span class="text-baseY-0">Millo Cheese</span>
+          Roll
+        </h1>
+        <div
+          class="hidden md:block border-r-2 h-48 mr-7 border-chocolate-0 border-t-2 md:absolute left-1/2 lg:h-60"
+        >
+          <div
+            class="hidden md:flex rating top-36 absolute left-1/2 -translate-x-1/2 lg:top-52 lg:w-14 lg:h-14"
+          >
+            #1
+            <ion-icon
+              name="checkmark-circle"
+              class="absolute -bottom-4 text-red-0 bg-baseY-0 rounded-full"
+            ></ion-icon>
+          </div>
+        </div>
+        <div
+          class="border-r-2 h-36 mr-7 border-chocolate-0 border-t-2 -mt-10 md:border-none"
+        >
+          <div class="rating top-36 md:hidden absolute">
+            #1
+            <ion-icon
+              name="checkmark-circle"
+              class="absolute -left-2 -bottom-2 text-red-0 bg-baseY-0 rounded-full w-4 h-4"
+            ></ion-icon>
+          </div>
+          <div class="md:grid md:grid-cols-12">
+            <img
+              src="./public/img/logo_makanan-removebg-preview.png"
+              alt=""
+              class="mt-10 md:col-span-6 md:order-2 mx-auto md:w-full 2xl:w-[600px] md:pl-12 md:pt-0"
+            />
+            <p
+              class="font-bold font-Circular p-5 text-2xl md:col-span-6 md:order-1 w-full text-left ml-5 md:mt-28 2xl:pl-36 2xl:text-4xl 2xl:mt-40 md:pr-8 text-grey-0"
+            >
+              <span class="text-red-0">Milo Cheese Roll</span> , tempatnya
+              mencicipi kelezatan manis yang menggoda. Kami menghadirkan kreasi
+              unik dengan paduan sempurna antara rasa milo dan kelembutan keju
+              dalam setiap gigitannya.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- class="bg-gradient-to-b from-[#EB6B00] to-[#D65100] w-full -->
+    <section class="w-full">
+      <div class="relative mt-[600px] md:mt-[400px] lg:mt-[600px]" id="produk">
+        <h1
+          class="text-3xl font-bold font-Poppins text-red-0 mt-20 border-y-2 border-chocolate-0 py-4 bg-chocolate-0 pl-5 md:mx-auto text-center lg:text-4xl"
+        >
+          <span class="text-baseY-0">Menu</span>
+          Kami
+        </h1>
+
+        <div class="relative flex flex-wrap">
+          <div
+            class="relative flex w-full justify-center items-center mt-8 lg:bg-chocolate-0 lg:w-96 lg:mx-auto lg:py-9 lg:rounded-xl lg:outline-4 lg:outline lg:outline-red-0"
+          >
+            <div
+              class="hidden lg:block border-4 border-red-0 absolute left-0 right-0 -top-10 h-32 -z-20"
+            ></div>
+            <img src="public/img/Harga.png" alt="12K" class="w-20 sm:w-28" />
+            <p
+              class="text-3xl font-bold font-Circular cta py-3 px-5 sm:px-6 sm:text-6xl"
+            >
+              S
+            </p>
+          </div>
+
+          <div class="mx-5 sm:mx-20 lg:flex items-center">
+            <img
+              src="public/img/Choco Crunchy.png"
+              alt="chocolate"
+              class="relative z-30 lg:w-1/2 lg:ml-16 lg:-mt-9"
+            />
+            <img
+              src="public/img/Foto Choco Crunchy.png"
+              alt=""
+              class="-mt-32 mx-auto lg:mt-0 lg:w-full"
+            />
+          </div>
+          <div class="mx-5 sm:mx-24 lg:flex lg:-mt-20">
+            <img
+              src="public/img/Taro.png"
+              alt="Taro"
+              class="z-10 relative lg:order-2 lg:w-1/2 lg:h-[300px] lg:mt-10"
+            />
+            <img
+              src="public/img/Foto Taro.png"
+              alt=""
+              class="-mt-36 mx-auto lg:order-1 lg:w-full"
+            />
+          </div>
+          <div class="mx-5 -mt-5 sm:mx-24 lg:flex lg:-mt-36">
+            <img
+              src="public/img/Tiramisu.png"
+              alt=""
+              class="relative z-20 lg:w-1/2 lg:h-[500px]"
+            />
+            <img
+              src="public/img/Foto Tiramisu.png"
+              alt=""
+              class="-mt-32 mx-auto lg:w-full lg:mt-1"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="w-full flex items-center justify-center">
+        <a
+          href="https://api.whatsapp.com/send?phone=6281287373318&text=Hai%20kak,%20saya%20mau%20order%20Milo%20Cheese%20Roll%20dong"
+          class="cta p-4 text-3xl font-Circular text-center text-grey-0"
+          id="cta"
+          target="_blank"
+          >Beli Sekarang</a
+        >
+      </div>
+    </section>
+
+    <section
+      class="bg-chocolate-0 w-full mt-20 flex flex-col justify-center items-center h-32"
+      id="kontak"
+    >
+      <div>
+        <a
+          href="https://api.whatsapp.com/send?phone=6281287373318&text=Hai%20kak,%20saya%20mau%20order%20Milo%20Cheese%20Roll%20dong"
+          target="_blank"
+          ><ion-icon
+            name="logo-whatsapp"
+            class="text-baseY-0 text-3xl mx-2"
+          ></ion-icon
+        ></a>
+        <a href="https://www.instagram.com/kenzycoklat/" target="_blank">
+          <ion-icon
+            name="logo-instagram"
+            class="text-baseY-0 text-3xl mx-2"
+          ></ion-icon>
+        </a>
+      </div>
+      <div class="text-baseY-0 text-lg">
+        Created by <span class="text-red-0">Kenzy Company</span>. | © 2024
+      </div>
+    </section>
+    <div class="w-full bg-chocolate-0 h-20"></div>
+
+    <!-- ion icon -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+
+    <!-- js -->
+    <script src="script.js"></script>
+  </body>
+</html>
